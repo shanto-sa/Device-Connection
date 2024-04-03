@@ -1,0 +1,19 @@
+Request Method : Post
+
+Request URL : http://localhost/api/index.php
+
+Request Format:
+
+[
+    {
+        "userId": "1",
+        "punchTime": "2023-05-16 14:30:00",
+        "punchType": "Finger",
+        "deviceId": "5555",
+        "punchMode": "IN"
+    }
+]
+
+
+Response : 
+{"status":"success","message":"Punch records saved successfully"}
